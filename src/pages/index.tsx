@@ -15,9 +15,10 @@ const Index = () => {
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
+      <a href="https://github.com/DGLcsGaming/Next-js-Boilerplate">
         <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
+          src={`${router.basePath}/assets/images/foxcod.jpg`}
+          className="mx-auto h-40"
           alt="Nextjs starter banner"
         />
       </a>
@@ -168,17 +169,6 @@ const Index = () => {
           Production-ready
         </li>
       </ul>
-      <p>
-        Check our GitHub project for more information about{' '}
-        <a href="https://github.com/ixartz/Next-js-Boilerplate">
-          Nextjs Boilerplate
-        </a>
-        . You can also browse our{' '}
-        <a href="https://creativedesignsguru.com/category/nextjs/">
-          Premium NextJS Templates
-        </a>{' '}
-        on our website to support this project.
-      </p>
     </Main>
   );
 };
