@@ -21,7 +21,7 @@ const Main = (props: IMainProps) => (
         </div>
       </div>
 
-      <div className="content py-5 text-xl">{props.children}</div>
+      <div className="py-5 text-xl">{props.children}</div>
     </div>
   </div>
 );

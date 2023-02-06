@@ -10,7 +10,7 @@
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
     "lint": "next lint",
-    "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
+    "format": "next lint --fix && prettier \"**/*.{json,yaml}\" --write --ignore-path .gitignore",
     "check-types": "tsc --noEmit --pretty && tsc --project cypress --noEmit --pretty",
     "test": "jest",
     "commit": "cz",
@@ -22,11 +22,14 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
     "next": "^13.1.2",
     "next-seo": "^5.15.0",
     "next-sitemap": "^3.1.45",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
